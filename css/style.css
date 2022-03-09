@@ -109,7 +109,7 @@ img {
 /* contact section */
 
 #contact {
-  width: 400px;
+  width: 350px;
   text-align: center;
   margin: 0 auto;
   padding: 4rem 0;
@@ -124,7 +124,7 @@ img {
 nav {
   font-family: var(--mono);
   font-size: 80%;
-  padding: 4rem 1rem;
+  padding: 0 1rem;
 }
 
 nav h1 a {
@@ -341,10 +341,19 @@ footer ul {
   nav {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 4rem 1rem;
+
   }
   nav li:first-child {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
   }
+
+ #contact {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
 }
